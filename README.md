@@ -12,21 +12,6 @@ In this project, we apply machine learning techniques to predict the optimal War
 
 The project utilizes the International Warfarin Pharmacogenetics Consortium (IWPC) dataset, comprising 6161 patient records with features such as Gender, Age, Race, Height, and Weight, along with genetic markers like CYP2C9 and VKORC1 genotypes. The target variable is the Therapeutic Dose of Warfarin measured in milligrams per week. This dataset enables the development of machine learning models to predict the optimal Warfarin dosage for individual patients.<br />
 
-
-# Visualizations
-
-In this section, we present the performance metrics of the machine learning models along with relevant visualizations.
-
-### Correlation Heatmap
-
-![Correlation Heatmap](images/correlation_heatmap.png)
-*Figure 1: Heatmap showing the correlations between different features in the dataset.*
-
-### Confusion Matrix
-![Confusion Matrix](images/confusion_matrix.png)
-*Figure 2: Confusion matrix for the Random Forest model, showing true vs. predicted values.*
-
-
 # Conclusion:
 This project aims to build an accurate and reliable Warfarin dosage prediction system using machine learning techniques. The models will help clinicians make better-informed decisions regarding Warfarin therapy, ultimately improving patient outcomes and reducing the risk of adverse effects. We will evaluate the models' performance based on their accuracy in predicting dosage levels and their robustness across various patient profiles.
 
